@@ -1,0 +1,72 @@
+{
+  "Persons": [
+    {
+      "id": 1,
+      "firstname": "Jhon",
+      "lastname": "Carter",
+      "email": "jhonc@tests.com"
+    },
+    {
+      "id": 2,
+      "firstname": "Mart",
+      "lastname": "Carter",
+      "email": "martc@tests.com"
+    },
+    {
+      "id": 3,
+      "firstname": "Arthur",
+      "lastname": "Lost",
+      "email": "arthur@tests.com"
+    },
+    {
+      "id": 4,
+      "firstname": "Olivia",
+      "lastname": "Cont",
+      "email": "olivia@tests.com"
+    }
+  ],
+  "Childs": [
+    {
+      "id": null,
+      "parentid": 2,
+      "firstname": "Alex",
+      "lastname": "Carter",
+      "age": 10
+    },
+    {
+      "id": null,
+      "parentid": 2,
+      "firstname": "Alana",
+      "lastname": "Carter",
+      "age": 15
+    },
+    {
+      "id": null,
+      "parentid": 4,
+      "firstname": "Renna",
+      "lastname": "Cont",
+      "age": 6
+    }
+  ],
+  "Pets": [
+    {
+      "id": null,
+      "childid": 2,
+      "name": "Tiny",
+      "type": "cat" 
+    },
+    {
+      "id": null,
+      "childid": 3,
+      "name": "Fenton",
+      "type": "doc" 
+    },
+    {
+      "id": null,
+      "childid": 2,
+      "name": "Lin",
+      "type": "bird" 
+    }
+  ]
+
+}
